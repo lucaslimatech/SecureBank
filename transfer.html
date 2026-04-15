@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Transferência</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <p class="logo">Secure Bank</p>
+    <h2>Transferência</h2>
+  </div>
+
+  <form id="transferForm">
+
+```
+<div class="input-group">
+  <input type="text" id="recipient" placeholder=" " required>
+  <label>Destinatário</label>
+</div>
+
+<div class="input-group">
+  <input type="number" id="amount" placeholder=" " required>
+  <label>Valor</label>
+</div>
+
+<button type="submit" id="transferBtn" class="btn btn-primary">
+  Transferir
+</button>
+```
+
+  </form>
+
+  <p id="error"></p>
+
+<a href="dashboard.html">Voltar</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
